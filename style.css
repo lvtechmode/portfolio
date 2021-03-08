@@ -1,0 +1,133 @@
+/*
+the following elements required:
+ background, color, font-family, font-size,
+ height, margin, padding, text-align
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body {
+  margin: 0;
+  background-color: #000000;
+  background-image: url("images/wallpaper.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+
+header p{
+ color: #000000;
+ text-align: center;
+}
+
+
+div {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+
+article {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+
+main {
+  border: 0;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #ffffff;
+  width: 600px;
+  margin: 20px auto 0 auto;
+  position: center;
+  font-color: #000000;
+}
+ 
+
+h1 {
+  font-family: 'Special Elite', monospace;
+  font-size: 50px;
+  color: #000000;
+  margin-top: 80px;
+  margin-bottom: 0;
+  text-align: center;	
+}
+
+
+h2 {
+  font-family: 'Special Elite', monospace;
+  font-size: 35px;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-align: center;	
+}
+
+
+h3 {
+  font-family: 'Special Elite', monospace;
+  font-size: 25px;
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 0;
+  text-align: center;	
+}
+ 
+
+p, li {
+  font-family: monospace;
+  font-size: 18px;
+  color: #000000;
+  padding: 12px;
+}
+
+hr {
+  border: 2px solid black;
+  border-radius: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+img {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #F987C5;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #E4A199;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #F81894;
+}
+
+a:active {
+  text-decoration: none;
+  color: #FE&7F9C;
+}
+
+
+
+footer p {
+background-image: none;
+background-color: transparent;
+color: #000000;
+font-size: 18px;
+text-align: center;
+}
+
+
